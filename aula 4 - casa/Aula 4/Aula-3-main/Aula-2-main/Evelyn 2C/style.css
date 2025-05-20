@@ -1,0 +1,23 @@
+@import url(https://fonts.google.com/share?selection.family=Josefin+Sans:ital,wght@0,100..700;1,100..700);
+
+:root {
+  --cor-principal: #909ead;
+  --cor-secundaria: #286046;
+  --cor-destaque: #49a859;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+h1,
+h2,
+h5 {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+}
+footer a {
+  color: var(--cor-principal);
+}
+
+footer a:hover {
+  color: var(--cor-destaque);
+}
